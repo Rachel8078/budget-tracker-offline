@@ -82,3 +82,6 @@ function uploadEntry() {
     }
     };
 }
+
+// listen for app coming back online
+window.addEventListener('online', uploadEntry);
